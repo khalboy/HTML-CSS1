@@ -21,7 +21,6 @@ body {
 /* width: 100%; */
 /* } */
 .container {
-  width: auto;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -46,7 +45,7 @@ body {
 .main-header {
   background-color: #074450;
   /* display: flex; */
-  /* width: 1200px; */
+  width: 1500px;
   margin: 0 auto;
   padding: 10px 180px 200px 180px;
   align-items: center;
@@ -104,10 +103,12 @@ button {
 }
 
 .section2 {
-  background-color: thistle;
+  /* background-color: thistle; */
   padding: 10px 180px 0px 180px;
   text-align: center;
   color: #555;
+  width: 1500px;
+  margin: 0 auto;
 }
 
 .section-2 {
@@ -147,11 +148,15 @@ h3 {
 }
 
 .testimonial {
-  display: flex;
+  /* display: flex; */
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 10px 180px 0px 180px;
+  background-color: #f3f3f3;
+  padding: 200px 180px 200px 180px;
+  width: 1500px;
+  margin: 0 auto;
+  gap: 20px;
 }
 
 .testimonial-text {
@@ -159,4 +164,54 @@ h3 {
   color: #333;
   font-style: italic;
   text-align: justify;
+  margin-bottom: 20px;
+}
+
+.testimonial-author {
+  font-size: 24px;
+  font-weight: 600;
+  text-align: right;
+  color: #222;
+}
+
+.cta {
+  /* background-color: yellow; */
+  width: 1500px;
+  margin: 0 auto;
+  padding: 160px 180px 160px 180px;
+}
+.cta1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  background-color: dodgerblue;
+  padding: 50px 150px 50px 150px;
+  /* margin: 40px; */
+  border-radius: 12px;
+  gap: 100px;
+}
+
+.btn2 {
+  color: #fff;
+  background-color: dodgerblue;
+  border: 2px solid;
+}
+
+.cta-text1 {
+  color: #fff;
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.cta-text2 {
+  font-size: 24px;
+}
+
+.foot {
+  background-color: #010b0d;
+  text-align: center;
+  width: 1500px;
+  margin: 0 auto;
+  padding: 50px 100px;
 }
