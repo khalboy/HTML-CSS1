@@ -8,6 +8,9 @@ My first projects on html/css
 
 Landing page tutorial
 <<<<<<< HEAD
+<<<<<<< HEAD
+>>>>>>> 47b2a825f738dc24838feaa5f7f51967ae3f1dd1
+=======
 >>>>>>> 47b2a825f738dc24838feaa5f7f51967ae3f1dd1
 =======
 >>>>>>> 47b2a825f738dc24838feaa5f7f51967ae3f1dd1
