@@ -1,5 +1,5 @@
 /*  /*
-      MAIN COLOR:#0b7285
+      MAIN COLOR:#1f2937
       GREY COLOR:#343a40
       */
 * {
@@ -12,9 +12,6 @@ body {
   font-family: "Roboto", sans-serif;
   color: #fff;
   line-height: 1;
-  /* text-align: center;
-  align-items: center;
-  align-content: center; */
 }
 
 /* img { */
@@ -30,8 +27,9 @@ body {
   padding: 10px 180px 0px 180px;
 }
 
-.head-1 {
-  font-size: 38px;
+.header--1 {
+  font-size: 48px;
+  font-weight: bold;
   line-height: 1.2;
   /* margin-bottom: 60px; */
 }
@@ -39,18 +37,17 @@ body {
 .first-paragraph {
   font-size: 18px;
   margin-bottom: 15px;
-  color: #e7f1f3;
+  color: #e5e7eb;
 }
 
 .main-header {
-  background-color: #074450;
-  /* display: flex; */
+  background-color: #1f2937;
+
   width: 1500px;
   margin: 0 auto;
   padding: 10px 180px 200px 180px;
   align-items: center;
   flex-wrap: nowrap;
-  /* margin-bottom: 50px; */
 }
 
 .nav-head {
@@ -64,8 +61,13 @@ body {
   margin-bottom: 60px;
 }
 
+.nav-head:last-child {
+  color: #e5e7eb;
+  font-size: 18px;
+}
 .logo {
   margin-right: auto;
+  color: #f9faf8;
   font-size: 24px;
   font-weight: 700;
 }
@@ -92,7 +94,7 @@ body {
 button {
   font-size: 20px;
   font-weight: bold;
-  background-color: #85b9c2;
+  background-color: #3882f6;
   color: #fff;
   border-radius: 10px;
   padding: 5px;
@@ -119,8 +121,10 @@ button {
   /* max-width: 500px; */
   gap: 20px;
 }
-h3 {
-  font-size: 32px;
+.header--2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
   padding: 40px;
 }
 
@@ -152,7 +156,7 @@ h3 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: #f3f3f3;
+  background-color: #e5e7eb;
   padding: 200px 180px 200px 180px;
   width: 1500px;
   margin: 0 auto;
@@ -160,8 +164,8 @@ h3 {
 }
 
 .testimonial-text {
-  font-size: 30px;
-  color: #333;
+  font-size: 36px;
+  color: #1f2937;
   font-style: italic;
   text-align: justify;
   margin-bottom: 20px;
@@ -174,18 +178,17 @@ h3 {
   color: #222;
 }
 
-.cta {
-  /* background-color: yellow; */
+.call-to-action {
   width: 1500px;
   margin: 0 auto;
   padding: 160px 180px 160px 180px;
 }
-.cta1 {
+.call-to-action-1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
   color: #fff;
-  background-color: dodgerblue;
+  background-color: #3882f6;
   padding: 50px 150px 50px 150px;
   /* margin: 40px; */
   border-radius: 12px;
@@ -194,7 +197,7 @@ h3 {
 
 .btn2 {
   color: #fff;
-  background-color: dodgerblue;
+  background-color: #3882f6;
   border: 2px solid;
 }
 
@@ -209,7 +212,7 @@ h3 {
 }
 
 .foot {
-  background-color: #010b0d;
+  background-color: #1f2937;
   text-align: center;
   width: 1500px;
   margin: 0 auto;
